@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+    <title>Julia Shop</title>
+        <meta charset="utf-8">
+         
+        <link rel="stylesheet" href="{% static 'css/Style3.css'%}">
+        <style>
+        </style>
+    </head>
+    <body>
+         <header>
+        <nav>
+             <h4>JULIA SHOP</h4>
+            <ul class="MENU">
+                <li>Accueil</li>
+                <li><a>Articles</a></li>
+                <li>Panier</li>
+                <li>Se connecter</li>
+                <li>Contacts</li>
+                 <textarea name="commentaires" cols="15" rows="1">Rechercher...   </textarea> 
+                <button><a href="/ss/">ok</a></button>
+            </ul>
+        </nav>
+        </header>
+      <section>
+              <article class="shop">
+                  <h1>Portefeuille Miniwallet</h1>
+                  <img id="photo" src="{%static 'images/secrid-porte-cartes-de-credit-en-cuir-noir-matte.jpg'%}" alt="cuir noir">
+                <h3>Prix : 199,00 DH</h3>
+                  <i>Portefeuille Miniwallet anti détuornement de données des cartes RFID et NFC noir</i>
+                  <br>
+                  <button><a href="/aa/">Ajouter</a></button>
+            </article>
+             <article class="shop">
+                  <h1>Fashion Veste Homme</h1>
+                 <img id="photo" src="{%static 'images/blouson-hermes-jockey-48-m-veste-homme-laine-bleu.jpg'%}" alt="blouson">
+                <h3>Prix : 169,00 DH</h3>
+                  <i>Fashion Veste homme décontractée homme d'affaires-bleu</i>
+                 <br>
+                 <button><a href="/bb/">Ajouter</a></button>
+            </article>
+             <article class="shop">
+                  <h1>D18 Smart Sport Watch</h1>
+                 <img id="photo" src="{%static 'images/N29367312A_1.jpg'%}" alt="smart sport">
+                <h3>Prix : 289,00 DH</h3>
+                  <i>D18 Smart Sport Watch Surveillance De La Frêquence Cardiaque Du Sommeil</i>
+                 <br>
+                 <button><a href="/cc/">Ajouter</a></button>
+            </article>
+        </section>
+        <footer>
+           Copyright C Julia Shop
+        </footer>
+    </body>
+
+</html>

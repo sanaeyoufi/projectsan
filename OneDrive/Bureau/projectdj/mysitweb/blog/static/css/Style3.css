@@ -1,0 +1,106 @@
+
+body{
+    width: 100%;
+    margin:auto;
+    text-align: center;
+}
+header{
+    background-color: darkgray;
+    height: 120px;
+}
+.MENU{  
+    font-family: verdana;
+    list-style-type: none;
+    display: inline-flex;
+}
+.MENU li{
+   margin-right: 15px;
+    padding: 10px;
+    border-radius: center 10px;
+    font-size: 20px;
+    color: white;
+    border-color: gainsboros;
+    display: flex;
+    
+}
+.MENU li:hover{
+    cursor: pointer;
+    display: block;
+    font-size: small;
+   
+}
+.MENU li:first-child{
+    font-weight: bold;
+}
+  h4{
+    color: darkorange;
+    margin: 2px;
+      font-size: 30px;
+      text-align: left;
+      margin-left: 50px;
+}
+.MENU textarea{
+    margin: inherit;
+    color: darkgreys;
+}
+.MENU button{
+    margin: inherit;
+    background-color: darkorange;
+    color: white;
+}
+section{
+     background-color: gainsboro;
+     padding: 80px;
+    display: flex;
+    grid-template-columns: auto;
+    
+    
+}
+footer{
+    text-align: center;
+    color: aliceblue;
+    height: 60px;
+    background-color: darkgray;
+    font-size: 12px
+    
+}
+nav{
+    text-align: center;
+    display: block;
+    }
+  .shop{
+    width: 325px;
+    height: 335px;
+    border-width: 5px;  
+    border-color: burlywood; 
+    border-style: solid;
+    border-left: 10px; 
+    border-top: 10px;
+    margin: 10px;
+    padding: 1px 20px 30px;  
+    text-align: center;
+      background-color: white;
+}
+.shop h1{
+    background-color: darkgray;
+    border: 1px darkgray solid;
+    height: 50px;
+    width: 320px;
+    text-align: center;
+    color: white;
+}
+.shop h3{
+    color: darkorange;
+    text-align: left;
+}
+.shop button{
+    background-color: darkorange;
+    float: right;
+}
+#photo{
+    width: 150px;
+    height: 150px;
+}
+
+
+
